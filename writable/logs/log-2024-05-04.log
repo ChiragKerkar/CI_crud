@@ -1,0 +1,237 @@
+CRITICAL - 2024-05-04 05:30:54 --> TypeError: App\Controllers\Home::additional_data(): Return value must be of type string, none returned
+[Method: GET, Route: dealer_data]
+in APPPATH\Controllers\Home.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->additional_data()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-04 06:12:53 --> TypeError: App\Controllers\Home::add_dealer_data(): Return value must be of type string, none returned
+[Method: POST, Route: add_dealer_data]
+in APPPATH\Controllers\Home.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_dealer_data()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-04 06:13:40 --> TypeError: App\Controllers\Home::add_dealer_data(): Return value must be of type string, none returned
+[Method: POST, Route: add_dealer_data]
+in APPPATH\Controllers\Home.php on line 117.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->add_dealer_data()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-04 06:50:46 --> BadMethodCallException: Call to undefined method App\Models\Dealers::getResult
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Home.php(132): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-04 07:02:46 --> ErrorException: Undefined variable $age
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\Home.php on line 135.
+ 1 APPPATH\Controllers\Home.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $age', 'C:\\xampp\\htdocs\\codeignter-user-registraion\\app\\Controllers\\Home.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-04 07:08:47 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 45.
+ 1 APPPATH\Views\dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\codeignter-user-registraion\\app\\Views\\dashboard.php', 45)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeignter-user-registraion\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(137): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-04 07:09:52 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 45.
+ 1 APPPATH\Views\dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\codeignter-user-registraion\\app\\Views\\dashboard.php', 45)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeignter-user-registraion\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(137): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-04 07:10:50 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 45.
+ 1 APPPATH\Views\dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\codeignter-user-registraion\\app\\Views\\dashboard.php', 45)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeignter-user-registraion\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(137): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-04 07:35:28 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::toArray()
+[Method: GET, Route: dashboard]
+in APPPATH\Models\Dealers.php on line 51.
+ 1 APPPATH\Controllers\Home.php(130): App\Models\Dealers->getDealers()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-05-04 07:37:56 --> mysqli_sql_exception: Column 'id' in field list is ambiguous in C:\xampp\htdocs\codeignter-user-registraion\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\codeignter-user-registraion\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT d.id,use...', 0)
+#1 C:\xampp\htdocs\codeignter-user-registraion\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT d.id,use...')
+#2 C:\xampp\htdocs\codeignter-user-registraion\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT d.id,use...')
+#3 C:\xampp\htdocs\codeignter-user-registraion\app\Models\Dealers.php(51): CodeIgniter\Database\BaseConnection->query('SELECT d.id,use...')
+#4 C:\xampp\htdocs\codeignter-user-registraion\app\Controllers\Home.php(130): App\Models\Dealers->getDealers()
+#5 C:\xampp\htdocs\codeignter-user-registraion\system\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+#6 C:\xampp\htdocs\codeignter-user-registraion\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeignter-user-registraion\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeignter-user-registraion\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\codeignter-user-registraion\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\codeignter-user-registraion\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-05-04 07:37:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'id' in field list is ambiguous
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\Dealers.php(51): CodeIgniter\Database\BaseConnection->query('SELECT d.id,user_id,city,state,zip_code,first_login,id,first_name,last_name,email,password,user_type FROM dealers d
+                INNER JOIN users u on u.id = d.user_id')
+ 2 APPPATH\Controllers\Home.php(130): App\Models\Dealers->getDealers()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-04 07:37:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'id' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT d.id,user_id,city,state,zip_code,first_login,id,first_name,last_name,email,password,user_type FROM dealers d
+                INNER JOIN users u on u.id = d.user_id')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT d.id,user_id,city,state,zip_code,first_login,id,first_name,last_name,email,password,user_type FROM dealers d
+                INNER JOIN users u on u.id = d.user_id')
+ 3 APPPATH\Models\Dealers.php(51): CodeIgniter\Database\BaseConnection->query('SELECT d.id,user_id,city,state,zip_code,first_login,id,first_name,last_name,email,password,user_type FROM dealers d
+                INNER JOIN users u on u.id = d.user_id')
+ 4 APPPATH\Controllers\Home.php(130): App\Models\Dealers->getDealers()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-04 07:37:56 --> [Caused by] mysqli_sql_exception: Column 'id' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT d.id,user_id,city,state,zip_code,first_login,id,first_name,last_name,email,password,user_type FROM dealers d
+                INNER JOIN users u on u.id = d.user_id', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT d.id,user_id,city,state,zip_code,first_login,id,first_name,last_name,email,password,user_type FROM dealers d
+                INNER JOIN users u on u.id = d.user_id')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT d.id,user_id,city,state,zip_code,first_login,id,first_name,last_name,email,password,user_type FROM dealers d
+                INNER JOIN users u on u.id = d.user_id')
+ 4 APPPATH\Models\Dealers.php(51): CodeIgniter\Database\BaseConnection->query('SELECT d.id,user_id,city,state,zip_code,first_login,id,first_name,last_name,email,password,user_type FROM dealers d
+                INNER JOIN users u on u.id = d.user_id')
+ 5 APPPATH\Controllers\Home.php(130): App\Models\Dealers->getDealers()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-04 07:39:16 --> ErrorException: Undefined variable $a
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\Home.php on line 132.
+ 1 APPPATH\Controllers\Home.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $a', 'C:\\xampp\\htdocs\\codeignter-user-registraion\\app\\Controllers\\Home.php', 132)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-04 07:39:22 --> TypeError: json_decode(): Argument #1 ($json) must be of type string, array given
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 45.
+ 1 APPPATH\Views\dashboard.php(45): json_decode([...])
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeignter-user-registraion\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(140): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-04 07:39:48 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 47.
+ 1 APPPATH\Views\dashboard.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\codeignter-user-registraion\\app\\Views\\dashboard.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeignter-user-registraion\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(140): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-04 07:44:40 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 47.
+ 1 APPPATH\Views\dashboard.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\codeignter-user-registraion\\app\\Views\\dashboard.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeignter-user-registraion\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(132): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-04 07:44:50 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 53.
+ 1 APPPATH\Views\dashboard.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\codeignter-user-registraion\\app\\Views\\dashboard.php', 53)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeignter-user-registraion\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(132): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-04 08:53:22 --> ErrorException: Undefined variable $id
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 75.
+ 1 APPPATH\Views\dashboard.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\codeignter-user-registraion\\app\\Views\\dashboard.php', 75)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeignter-user-registraion\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(130): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
